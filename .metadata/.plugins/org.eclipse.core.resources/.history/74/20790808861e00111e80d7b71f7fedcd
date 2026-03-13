@@ -1,0 +1,13 @@
+package com.klu.fsad.exam;
+
+/**
+ * Hello world!
+ *
+ */
+public class ClientDemo 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
