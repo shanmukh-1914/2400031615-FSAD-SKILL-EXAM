@@ -16,12 +16,12 @@ public class ClientDemo
     	SessionFactory sf = cfg.buildSessionFactory();
     	Session session = sf.openSession();
     	
-    	/*Service s1 = new Service();
+    	Service s1 = new Service();
     	s1.name="Web Services";
     	s1.status="Active";
     	session.save(s1);
     	tx.commit();
-    	System.out.println("Insert Successful");*/
+    	System.out.println("Insert Successful");
     	
     	Transaction tx2 = session.beginTransaction();
     	String hql="update Service set name=:n , status=:s where id=:i";
